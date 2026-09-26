@@ -13,7 +13,7 @@ static struct video_info gta4xl_fb = {
 	.width = 1200,
 	.height = 2000,
 	.stride = 4,
-	.address = (void *)0xca000000
+	.address = (void *)0x9e5a0000,
 };
 
 static const struct device gta4xl_devices[] = {

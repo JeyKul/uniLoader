@@ -309,6 +309,12 @@ menu "Device Support"
 		help
 		  Say Y if you want to include support for Samsung Galaxy S6
 
+	config SAMSUNG_GTS4L
+    	bool "Support for Samsung Galaxy Tab S4 LTE (SM-T835)"
+    	depends on MSM8998
+    	help
+    	  Samsung Galaxy Tab S4 LTE, codename gts4llte.
+
 	config SONY_LILAC
 		bool "Support for Sony Xperia XZ1 Compact"
 		default n
