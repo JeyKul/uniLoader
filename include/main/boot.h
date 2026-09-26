@@ -19,6 +19,13 @@ extern void load_kernel_and_jump(unsigned int r0, unsigned int r1,
 #endif
 
 // From arch/<arch>/load-kernel.c
+
+extern unsigned long gts4l_exception_seen;
+extern unsigned long gts4l_exception_esr;
+extern unsigned long gts4l_exception_elr;
+extern unsigned long gts4l_exception_far;
+extern void gts4l_install_exception_vectors(void);
+
 void arch_load_kernel(void* kernel, void* dt, void* ramdisk);
 
 void boot_kernel(void* dt, void* kernel, void* ramdisk);
