@@ -336,7 +336,11 @@ menu "Device Support"
 		depends on EXYNOS_7420
 		help
 		  Say Y if you want to include support for Samsung Galaxy S6
-
+	config SAMSUNG_GTS4LLTE
+		bool "Support for Samsung Galaxy Tab S4 LTE (SM-T835)"
+		depends on MSM8998
+		help
+		  Samsung Galaxy Tab S4 LTE, codename gts4lltelte.
 	config SONY_PDX245
 		bool "Support for Sony Xperia 1 VI"
 		default n

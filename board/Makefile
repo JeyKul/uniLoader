@@ -43,6 +43,7 @@ lib-$(CONFIG_SAMSUNG_R8S) += samsung/board-r8s.o
 lib-$(CONFIG_SAMSUNG_STARLTE) += samsung/board-starlte.o
 lib-$(CONFIG_SAMSUNG_X1S) += samsung/board-x1s.o
 lib-$(CONFIG_SAMSUNG_ZEROFLTE) += samsung/board-zeroflte.o
+lib-$(CONFIG_SAMSUNG_GTS4LLTE) += samsung/board-gts4llte.o
 lib-$(CONFIG_SONY_PDX245) += sony/board-pdx245.o
 lib-$(CONFIG_SONY_PSVITA) += sony/board-vita.o
 lib-$(CONFIG_TECLAST_T40PRO) += teclast/board-t40pro.o
